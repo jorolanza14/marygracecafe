@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Mary Grace</title>
+    <style>
+        /* CSS styles from the original design */
+
+        /* Additional styles for navigation bar */
+        .navbar {
+            background-color: #493e35; /* Dark brown background */
+            color: #ffffff; /* White text color */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Lighter black shadow */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: #ffffff; /* White text color */
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Remaining styles from the original design */
+        /* Additional styles for hero section */
+        .hero-container {
+            position: relative;
+            height: 600px;
+            overflow: hidden;
+            background-color: #f5f0e6; /* Beige background */
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #ffffff; /* White text color */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Lighter black shadow */
+        }
+
+        .hero-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        /* Additional styles for featured items */
+        .featured-items {
+            padding: 50px 20px;
+            background-color: #e0d5c6; /* Light brown background */
+            text-align: center;
+            color: #493e35; /* Dark brown text color */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Lighter black shadow */
+        }
+
+        .featured-item {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        .featured-item img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .featured-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .featured-item p {
+            font-size: 18px;
+        }
+
+        /* Additional styles for testimonials */
+        .testimonials {
+            padding: 50px 20px;
+            background-color: #d1c2b5; /* Light brown background */
+            text-align: center;
+            color: #493e35; /* Dark brown text color */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Lighter black shadow */
+        }
+
+        .testimonial {
+            margin-bottom: 30px;
+        }
+
+        .testimonial p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .testimonial small {
+            font-style: italic;
+        }
+
+        /* Additional styles for social media links */
+        .social-media {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 24px;
+            color: #493e35; /* Dark brown text color */
+            text-decoration: none;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Lighter black shadow */
+        }
+
+        /* Additional styles for the "About Café Mary Grace" section */
+        #about {
+            padding: 50px 20px;
+            background-color: #f7f3e9; /* Original background color */
+            color: #493e35; /* Dark brown text color */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Lighter black shadow */
+        }
+
+        /* Additional styles for the footer section */
+        footer {
+            background-color: #f5f0e6; /* Beige background */
+            padding: 20px 0;
+            text-align: center;
+            color: #493e35; /* Dark brown text color */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Lighter black shadow */
+        }
+
+        .footer-logo {
+            width: 100px; /* Adjust size as needed */
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .hashtag {
+            font-size: 20px;
+            margin: 0 5px;
+        }
+
+        /* Additional styles for section dividers */
+        .section-divider {
+            border-top: 4px solid #ffd700; /* Thicker yellow divider */
+            margin: 50px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Navigation bar -->
+        <div class="navbar">
+            <a href="homepage.html">Home</a>
+            <a href="ourstory.html">Our Story</a>
+            <a href="menu.html">Menu</a>
+            <a href="locations.html">Locations</a>
+        </div>
+    </header>
+
+    <div class="hero-container">
+        <img class="hero-image" src="header-image.png" alt="Header Image">
+        <div class="hero-content">
+            <h1>Welcome to Café Mary Grace</h1>
+            <p>Indulge in our exquisite selection of baked goods, pastries, and gourmet coffee</p>
+            <a href="menu.html"><button>Explore Our Menu</button></a>
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>About Café Mary Grace</h2>
+        <p>Café Mary Grace offers a delightful selection of baked goods, pastries, and hearty meals in a cozy and welcoming atmosphere. Since its inception, Café Mary Grace has been committed to serving freshly baked bread and pastries made with the finest ingredients, paired with excellent coffee and warm hospitality.</p>
+        <p>Whether you're looking for a place to enjoy a leisurely breakfast, a quick lunch, or an afternoon treat, Café Mary Grace has something to satisfy your cravings.</p>
+    </section>
+    <div class="section-divider"></div>
+
+    <section class="featured-items">
+        <h2>Featured Items</h2>
+        <div class="featured-item">
+            <img src="featured-item1.jpg" alt="Featured Item 1">
+            <h3>Signature Pastries</h3>
+            <p>Try our freshly baked pastries made with the finest ingredients</p>
+        </div>
+        <div class="featured-item">
+            <img src="featured-item2.jpg" alt="Featured Item 2">
+            <h3>Specialty Coffees</h3>
+            <p>Enjoy a cup of our premium coffee blends from around the world</p>
+        </div>
+        <div class="featured-item">
+            <img src="featured-item3.jpg" alt="Featured Item 3">
+            <h3>Seasonal Delights</h3>
+            <p>Experience the flavors of the season with our seasonal menu offerings</p>
+        </div>
+    </section>
+    <div class="section-divider"></div>
+
+    <section class="testimonials">
+        <h2>Customer Testimonials</h2>
+        <div class="testimonial">
+            <p>"Absolutely love the ambiance and the delicious pastries! A must-visit for anyone in town."</p>
+            <small>- Jessica S.</small>
+        </div>
+        <div class="testimonial">
+            <p>"Great coffee and friendly staff! I always look forward to my visits here."</p>
+            <small>- Mark R.</small>
+        </div>
+    </section>
+    <div class="section-divider"></div>
+
+    <div class="social-media">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <footer>
+        <img class="footer-logo" src="logo.png" alt="Café Mary Grace Logo">
+        <p>All Rights Reserved. Café Mary Grace</p>
+        <div>
+            <span class="hashtag">#CafeMaryGrace</span>
+            <span class="hashtag">#BakedWithLove</span>
+            <span class="hashtag">#GourmetCoffee</span>
+        </div>
+    </footer>
+
+</body>
+</html>

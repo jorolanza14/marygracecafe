@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Café Mary Grace</title>
+    <style>
+        /* CSS styles from the original design */
+
+        /* Additional styles for navigation bar */
+        .navbar {
+            background-color: #493e35; /* Dark brown background */
+            color: #ffffff; /* White text color */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Lighter black shadow */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: #ffffff; /* White text color */
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Additional styles for main content */
+        .main-content {
+            padding: 50px;
+            background-color: #f7f3e9; /* Beige background */
+            color: #493e35; /* Dark brown text color */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Lighter black shadow */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .menu-section {
+            margin-bottom: 50px;
+            text-align: center;
+            flex-basis: 30%;
+            margin-right: 20px; /* Added margin between sections */
+        }
+
+        .menu-item {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .menu-item-name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .menu-item-price {
+            font-size: 16px;
+        }
+
+        /* Additional styles for title */
+        .title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .title h1 {
+            font-family: 'Arial Black', sans-serif; /* Different font */
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .title img {
+            width: 100px; /* Adjust size as needed */
+            height: 100px; /* Adjust size as needed */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Title with logo -->
+        <div class="title">
+            <h1>The Goodness of Home</h1>
+            <img src="logo.png" alt="Logo">
+        </div>
+
+        <!-- Navigation bar -->
+        <div class="navbar">
+            <a href="homepage.html">Home</a>
+            <a href="ourstory.html">Our Story</a>
+            <a href="menu.html">Menu</a>
+            <a href="locations.html">Locations</a>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <!-- Starters -->
+        <div class="menu-section">
+            <h2>Starters</h2>
+            <div class="menu-item">
+                <img src="croissant.jpg" alt="Croissant">
+                <div class="menu-item-name">Croissant</div>
+                <div class="menu-item-price">$3.50</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="cookie.jpg" alt="Chocolate Chip Cookie">
+                <div class="menu-item-name">Chocolate Chip Cookie</div>
+                <div class="menu-item-price">$2.00</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="cappuccino.jpg" alt="Cappuccino">
+                <div class="menu-item-name">Cappuccino</div>
+                <div class="menu-item-price">$4.50</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="sandwich.jpg" alt="Ham and Cheese Sandwich">
+                <div class="menu-item-name">Ham and Cheese Sandwich</div>
+                <div class="menu-item-price">$7.00</div>
+            </div>
+        </div>
+
+        <!-- Celebratory Cakes -->
+        <div class="menu-section">
+            <h2>Celebratory Cakes</h2>
+            <div class="menu-item">
+                <img src="cake1.jpg" alt="Celebration Cake 1">
+                <div class="menu-item-name">Chocolate Fudge Cake</div>
+                <div class="menu-item-price">$35.00</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="cake2.jpg" alt="Celebration Cake 2">
+                <div class="menu-item-name">Red Velvet Cake</div>
+                <div class="menu-item-price">$40.00</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="cake3.jpg" alt="Celebration Cake 3">
+                <div class="menu-item-name">Classic Cheesecake</div>
+                <div class="menu-item-price">$30.00</div>
+            </div>
+        </div>
+
+        <!-- Fresh Tomato & Herb Plate -->
+        <div class="menu-section">
+            <h2>Fresh Tomato & Herb Plate</h2>
+            <div class="menu-item">
+                <img src="meal1.jpg" alt="Fresh Tomato & Herb Plate">
+                <div class="menu-item-name">Fresh Tomato & Herb Plate</div>
+                <div class="menu-item-price">$18.00</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="meal2.jpg" alt="Chorizo Plate">
+                <div class="menu-item-name">Chorizo Plate</div>
+                <div class="menu-item-price">$20.00</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="meal3.jpg" alt="Dory & Saffron Cream Plate">
+                <div class="menu-item-name">Dory & Saffron Cream Plate</div>
+                <div class="menu-item-price">$25.00</div>
+            </div>
+        </div>
+
+        <!-- Homemade Ice Teas -->
+        <div class="menu-section">
+            <h2>Homemade Ice Teas</h2>
+            <div class="menu-item">
+                <img src="tea1.jpg" alt="Iced Tea 1">
+                <div class="menu-item-name">Classic Lemon Iced Tea</div>
+                <div class="menu-item-price">$3.00</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="tea2.jpg" alt="Iced Tea 2">
+                <div class="menu-item-name">Peach Mint Iced Tea</div>
+                <div class="menu-item-price">$3.50</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="tea3.jpg" alt="Iced Tea 3">
+                <div class="menu-item-name">Raspberry Hibiscus Iced Tea</div>
+                <div class="menu-item-price">$4.00</div>
+            </div>
+        </div>
+
+        <!-- Pastas -->
+        <div class="menu-section">
+            <h2>Pastas</h2>
+            <div class="menu-item">
+                <img src="pasta1.jpg" alt="Pasta 1">
+                <div class="menu-item-name">Spaghetti Bolognese</div>
+                <div class="menu-item-price">$12.00</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="pasta2.jpg" alt="Pasta 2">
+                <div class="menu-item-name">Penne Arrabiata</div>
+                <div class="menu-item-price">$11.00</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="pasta3.jpg" alt="Pasta 3">
+                <div class="menu-item-name">Fettuccine Alfredo</div>
+                <div class="menu-item-price">$13.00</div>
+            </div>
+        </div>
+
+        <!-- Soups -->
+        <div class="menu-section">
+            <h2>Soups</h2>
+            <div class="menu-item">
+                <img src="soup1.jpg" alt="Soup 1">
+                <div class="menu-item-name">Chicken Noodle Soup</div>
+                <div class="menu-item-price">$8.00</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="soup2.jpg" alt="Soup 2">
+                <div class="menu-item-name">Tomato Basil Soup</div>
+                <div class="menu-item-price">$7.00</div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="soup3.jpg" alt="Soup 3">
+                <div class="menu-item-name">Butternut Squash Soup</div>
+                <div class="menu-item-price">$9.00</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <!-- Footer content remains the same -->
+    </footer>
+
+</body>
+</html>
